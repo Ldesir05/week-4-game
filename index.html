@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halo Wars</title>
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <header class="col-sm-12">
+                <h1>Halo Role Playing Game</h1>
+            </header>
+        </div>
+        <div class="row">
+            <div class="col-sm-12" id="inst">
+                <h2>Choose your character</h2>
+            </div>
+        </div>
+        <div class="row" id="chars">
+            <div class="col-sm-3">
+                <button class="characters" data-index="0">
+                <h3>Blue Spartan</h3>
+                <img src="assets/images/blueHalo.jpg" class="img-rounded">
+                <h3 class="hp">150</h3>
+                </button>
+            </div>
+            <div class="col-sm-3">
+                <button class="characters" data-index="1">
+                <h3>Green Spartan</h3>
+                <img src="assets/images/greenHalo.jpg" class="img-rounded">
+                <h3 class="hp">80</h3>
+                </button>
+            </div>
+            <div class="col-sm-3">
+                <button class="characters" data-index="2">
+                <h3>Red Spartan</h3>
+                <img src="assets/images/redHalo.jpg" class="img-rounded">
+                <h3 class="hp">250</h3>
+                </button>
+            </div>
+            <div class="col-sm-3">
+                <button class="characters" data-index="3">
+                <h3>Master chief</h3>
+                <img src="assets/images/masterChief.jpg" class="img-rounded">
+                <h3 class="hp">200</h3>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12" id="enemies">
+            
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" id="player">
+            </div>
+            <div class="col-sm-4" >
+                <button type="button" class="btn btn-primary" id="attack" glyphicon glyphicon-fire >Attack!</button>
+            </div>
+            <div class="col-sm-4" id="enemy">
+            </div>
+        </div>
+        <div class="row">
+            <div class="cl-sm-12" id="result">
+                
+            </div>
+        </div>
+    </div> 
+        <audio autoplay src="assets/song/Halo.mp3">
+ 
+</body>
+</html>
